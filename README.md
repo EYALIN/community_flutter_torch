@@ -64,8 +64,8 @@ stop them when it goes to the background.
 
 ## Android extras (opt-in per app)
 
-`getFeatures()` and `requestAddTile()` report and use only what the host app's manifest declares,
-same opt-in model as the Cordova plugin:
+`getFeatures()` and `requestAddTile()` report and use only what the host app's manifest declares
+(every extra is opt-in):
 
 ```xml
 <service android:name="com.community.flutter.torch.TorchTileService" android:exported="true"

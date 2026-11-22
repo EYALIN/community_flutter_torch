@@ -41,8 +41,8 @@ internal object TorchCamera {
 
     /**
      * The host app's declared service whose class is [base] or extends it, or null. The tile classes
-     * are open: an app may declare a subclass under another name (e.g. the class names of the Cordova
-     * plugin, so the tiles users added survive the update), so they are never addressed by a fixed class.
+     * are open: an app may declare a subclass under another name (e.g. the class names of a plugin it
+     * migrated from, so the tiles users added survive the update), so they are never addressed by a fixed class.
      */
     fun declaredService(ctx: Context, base: Class<*>): ComponentName? = declared(ctx, base, PackageManager.GET_SERVICES)
 
