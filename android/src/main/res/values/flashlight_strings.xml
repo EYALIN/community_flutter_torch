@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Labels of the opt-in Quick Settings tiles.
+     An app can translate them by adding the same names under res/values-<lang>/. -->
+<resources>
+    <string name="flashlight_tile_label">Flashlight</string>
+    <string name="flashlight_sos_tile_label">SOS</string>
+</resources>
