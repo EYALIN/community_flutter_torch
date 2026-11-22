@@ -2,6 +2,7 @@
 
 Torch control for Flutter apps: on/off, strength levels and a state stream.
 
+<!-- support:top:start -->
 ## ❤️ Support this plugin
 
 I build and maintain this plugin, and [a whole family of free Flutter plugins](https://github.com/EYALIN?tab=repositories&q=community_flutter), in my free time. Every Android and iOS release changes something underneath them (new SDK levels, Swift Package Manager, privacy manifests, OEM quirks), and keeping them working takes hours every month.
@@ -11,6 +12,7 @@ I build and maintain this plugin, and [a whole family of free Flutter plugins](h
 [![Sponsor Me](https://img.shields.io/static/v1?label=Sponsor%20Me&style=for-the-badge&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/EYALIN)
 
 Not able to sponsor? A ⭐ on [GitHub](https://github.com/EYALIN) and a 👍 on pub.dev help other developers find it. Thank you!
+<!-- support:top:end -->
 
 - `isAvailable()`, `maxStrength()` (1 = cannot dim), `switchOn(strength:)`, `switchOff()`
 - `onStateChanged` stream — Android `TorchCallback`, iOS `isTorchActive` KVO.
@@ -120,6 +122,8 @@ iOS has none of these extras.
 MIT — see [LICENSE](LICENSE). Issues and pull requests are welcome at
 [github.com/EYALIN/community_flutter_torch](https://github.com/EYALIN/community_flutter_torch/issues).
 
+<!-- support:bottom:start -->
 ## Support
 
 If this plugin is useful to you, please [sponsor its development](https://github.com/sponsors/EYALIN). It keeps the plugin maintained for every new Android and iOS release.
+<!-- support:bottom:end -->
